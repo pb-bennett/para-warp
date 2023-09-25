@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(10, 10, 52);
+  color: blanchedalmond;
+}
+span {
+  transition: all 1000ms linear;
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  max-width: 80%;
+  /* height: 30rem; */
+  /* font-size: 1.5rem; */
+  line-height: 2rem;
+  hyphens: auto;
+}
+#pageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+#warpBtn {
+  width: 10rem;
+  padding: 1rem;
+  border: 1px solid blanchedalmond;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+#warpBtn:hover {
+  translate: 1px 1px;
+}
+#warpBtn:active {
+  background-color: blanchedalmond;
+  color: rgb(10, 10, 52);
+}
